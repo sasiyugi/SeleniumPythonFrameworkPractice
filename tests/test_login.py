@@ -14,10 +14,10 @@ from utilities.log_utility import log_info
 
 
 
-#@pytest.mark.parametrize("username, password", excel_utility.read_data_from_excel(r"C:\Users\sasik\PycharmProjects\FrameworkPractice\files\login_excel.xlsx", "Sheet1"))
+@pytest.mark.parametrize("username, password", excel_utility.read_data_from_excel(r"C:\Users\sasik\PycharmProjects\FrameworkPractice\files\login_excel.xlsx", "Sheet1"))
 class TestLogin(BaseTest):
 
-    @pytest.mark.parametrize("username, password", [["sasikumar@gmail.com", "12345678"]])
+    #@pytest.mark.parametrize("username, password", [["sasikumar@gmail.com", "12345678"]])
     @allure.severity(allure.severity_level.MINOR)
     def test_login_(self,username, password):
 
