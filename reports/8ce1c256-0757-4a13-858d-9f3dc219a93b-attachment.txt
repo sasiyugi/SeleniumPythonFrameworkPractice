@@ -1,0 +1,4 @@
+INFO     AutomationLogger:log_utility.py:18 entering text into email
+INFO     AutomationLogger:log_utility.py:18 entering password
+INFO     AutomationLogger:log_utility.py:18 click on login button
+INFO     AutomationLogger:log_utility.py:18 Test passed

@@ -1,0 +1,4 @@
+[32mINFO    [0m AutomationLogger:log_utility.py:18 entering text into email
+[32mINFO    [0m AutomationLogger:log_utility.py:18 entering password
+[31m[1mERROR   [0m AutomationLogger:log_utility.py:28 failed to enter password
+[32mINFO    [0m AutomationLogger:log_utility.py:18 click on login button
